@@ -1,0 +1,15 @@
+.features {
+  grid-column: center-start / center-end;
+  //grid-row: 2 / 3;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 6rem;
+
+  .feature {
+    &__icon {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+}
